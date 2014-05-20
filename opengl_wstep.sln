@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opengl_wstep", "opengl_wstep.vcxproj", "{D8E4987D-E363-40BF-9A81-9F7780BC058B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Turtle", "..\ConsoleApplication1\ConsoleApplication1.vcxproj", "{6EDACD87-B654-4A95-B3E1-EA93E656E78C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,10 @@ Global
 		{D8E4987D-E363-40BF-9A81-9F7780BC058B}.Debug|Win32.Build.0 = Debug|Win32
 		{D8E4987D-E363-40BF-9A81-9F7780BC058B}.Release|Win32.ActiveCfg = Release|Win32
 		{D8E4987D-E363-40BF-9A81-9F7780BC058B}.Release|Win32.Build.0 = Release|Win32
+		{6EDACD87-B654-4A95-B3E1-EA93E656E78C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6EDACD87-B654-4A95-B3E1-EA93E656E78C}.Debug|Win32.Build.0 = Debug|Win32
+		{6EDACD87-B654-4A95-B3E1-EA93E656E78C}.Release|Win32.ActiveCfg = Release|Win32
+		{6EDACD87-B654-4A95-B3E1-EA93E656E78C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

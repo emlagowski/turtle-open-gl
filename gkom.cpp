@@ -40,7 +40,6 @@ void displayObjects(int frame_no)
     GLfloat octa_diffuse[]   = { 0.7, 0.4, 0.4, 1.0 };
 
     glPushMatrix();
-
        glRotatef( 30.0, 1.0, 0.0, 0.0 );
 
 	glPushMatrix();
@@ -132,7 +131,7 @@ int main(int argc, char** argv)
    glutInitWindowPosition( 0, 0 );
    glutInitWindowSize( 250, 250 );
 
-   glutCreateWindow( "GPOB: OpenGL" );
+   glutCreateWindow( "Sweet turtle." );
 
    glutDisplayFunc( display );
    glutReshapeFunc( reshape );
